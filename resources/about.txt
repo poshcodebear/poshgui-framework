@@ -1,0 +1,4 @@
+PowerShell GUI Framework
+Copyright 2017
+
+This framework was developed to make GUI tool development simpler.

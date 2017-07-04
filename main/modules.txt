@@ -1,0 +1,3 @@
+MainProg.ps1
+config.ps1
+xaml-gui.xml.ps1
