@@ -8,11 +8,11 @@ $buttonHelpDocumentExp =
         { Show-Message -Title 'Help document not found' -Message "Help document '$($HelpDoc)' does not exist" }
 }
 
-# Changelog
+# License
 $buttonHelpLicenseExp =
 {
-    $changelog = Get-Content -Path "$($sPath)\LICENSE" | Out-String
-    Show-Message -Title "MIT License" -Message $changelog
+    $licenseText = Get-Content -Path "$($sPath)\LICENSE" | Out-String
+    Show-Message -Title "License info" -Message $licenseText
 }
 
 # About
